@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Formal - Sand Castle Maker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { overflow-y: auto; height: auto; padding: 4rem 2rem; background: var(--bg-color); }
+        .document-container { max-width: 900px; margin: 0 auto; background: white; padding: 4rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: var(--primary); margin-top: 2.5rem; margin-bottom: 1rem; }
+        h1 { font-size: 2.5rem; border-bottom: 2px solid var(--primary-glow); padding-bottom: 1rem; }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
+        p, ul, ol, table { margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 1.8; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th, td { padding: 15px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: var(--primary-glow); color: var(--primary); }
+        .alert { padding: 1.5rem; border-left: 5px solid var(--primary); background: var(--primary-glow); margin-bottom: 2rem; border-radius: 0 8px 8px 0; }
+        .btn-back { display: inline-flex; align-items: center; margin-bottom: 2rem; padding: 12px 24px; background: var(--primary); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: transform 0.2s; }
+        .btn-back:hover { transform: translateX(-5px); }
+        .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .kpi-card { background: #f8f9fa; border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px; }
+        @media print {
+            body { padding: 0; background: white; }
+            .document-container { box-shadow: none; padding: 0; }
+            .btn-back { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-effects"></div>
+    <div class="document-container">
+        <a href="presentacion_scm.html" class="btn-back">← Volver a la Presentación</a>
+        
+        <div style="text-align: center; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 2px solid var(--primary-glow);">
+            <img src="./LogoUAI-ezgif.com-remove-background.png" alt="Universidad Abierta Interamericana" style="max-height: 180px; margin-bottom: 1.5rem;">
+            <h2 style="color: var(--text-main); font-size: 1.5rem; margin: 0.5rem 0; border: none; padding: 0;">Alumno: Bruno Borgazzi</h2>
+            <h2 style="color: var(--text-main); font-size: 1.5rem; margin: 0.5rem 0; border: none; padding: 0;">Materia: Modelo de Negocio</h2>
+            <h2 style="color: var(--text-main); font-size: 1.5rem; margin: 0.5rem 0; border: none; padding: 0;">Profesor: Mg Guido Gerbaudo</h2>
+        </div>
+
+        <h1>Análisis Estratégico y Financiero Integral: Sand Castle Maker</h1>
+        
+        <div class="alert">
+            <strong>NOTA DEL DOCUMENTO:</strong> Este informe es la evaluación académica exhaustiva del modelo de negocios de "Sand Castle Maker". Incorpora los principios de emprendimiento tecnológico, agenda estratégica, evaluación del contexto (PESTEL), métricas de gestión (KPIs) y análisis financiero industrial.
+        </div>
+        
+        <h2>I. Identidad del Emprendimiento Tecnológico</h2>
+        <p>Sand Castle Maker no es solo un producto de ocio, sino un <strong>Emprendimiento Tecnológico</strong>, ya que su propuesta de valor depende íntegramente de la programación y el soporte tecnológico (Tercera Ola de Toffler: Sociedades del conocimiento).</p>
+        
+        <h3>Misión, Visión y Cultura Organizacional</h3>
+        <ul>
+            <li><strong>Misión:</strong> Proveer un espacio digital accesible y seguro que fomente la creatividad y la relajación de los usuarios a través de experiencias de construcción interactiva.</li>
+            <li><strong>Visión:</strong> Ser el simulador casual de construcción de referencia en el mercado móvil latinoamericano para el año 2026.</li>
+            <li><strong>Cultura Organizacional:</strong> Flexible, basada en la iteración constante (Agile), donde prima la atención a la satisfacción del usuario final y la mejora continua de la tecnología subyacente.</li>
+        </ul>
+
+        <h2>II. Análisis de Contexto y Mercado</h2>
+        <h3>1. Descriptores del Contexto (Auditoría Externa)</h3>
+        <p>Del análisis del macroambiente surgen las siguientes situaciones críticas:</p>
+        <ul>
+            <li><strong>Oportunidades (Económico/Sociocultural):</strong> Altísimo crecimiento en la adopción de smartphones y un aumento sostenido en la demanda de juegos "cozy" o relajantes que mitiguen el estrés urbano.</li>
+            <li><strong>Amenazas (Tecnológico/Competitivo):</strong> Saturación extrema en las tiendas de aplicaciones (barreras de entrada bajas pero barreras de visibilidad altísimas) y riesgo de clonación rápida por competidores con mayor capital.</li>
+        </ul>
+
+        <h3>2. Segmentación y Mercado Potencial</h3>
+        <p>Para que la estrategia sea eficaz, el segmento debe ser <em>mensurable, accesible y sustancial</em>.</p>
+        <ul>
+            <li><strong>Segmento Objetivo:</strong> Jugadores casuales de plataformas móviles, con interés en juegos de creatividad, sin restricciones demográficas estrictas pero con foco en la generación Z y Millennials.</li>
+            <li><strong>Mercado Potencial:</strong> Aquellos usuarios de Android que frecuentemente consumen contenido de simulación y construcción pero que aún no han sido captados por nuestra oferta.</li>
+        </ul>
+
+        <h2>III. Estrategia y Posicionamiento</h2>
+        <h3>1. Modelo Estratégico</h3>
+        <p>Adoptamos un enfoque guiado por el <strong>Modelo de Ventaja Competitiva (Porter)</strong>. Para destacarnos en una industria sin rentas monopólicas obvias como el gaming indie, nos basamos en la <strong>Diferenciación</strong>. No competimos por gráficos realistas (competencias centrales de empresas AAA), sino por una temática de nicho única: esculpir castillos de arena con físicas fluidas (<em>WetSandBehavior</em>).</p>
+
+        <h3>2. Comercialización (4 Ps) y TICs</h3>
+        <ul>
+            <li><strong>Producto:</strong> Videojuego interactivo digital.</li>
+            <li><strong>Precio:</strong> Modelo Freemium (acceso gratuito, ingresos por publicidad).</li>
+            <li><strong>Plaza y TICs:</strong> Distribución exclusiva a través de plataformas digitales masivas (Google Play Store). </li>
+            <li><strong>Promoción:</strong> Uso intensivo de Tecnologías de la Información y Comunicación (TICs), específicamente redes sociales y algoritmos de recomendación (ASO) para la comunicación comercial directa, permitiendo una comunicación bidireccional (Feedback inmediato).</li>
+        </ul>
+
+        <h2>IV. Agenda Estratégica y Control</h2>
+        <p>La agenda estratégica asegura una ventaja competitiva sostenible a través de la ejecución planificada y el control permanente.</p>
+        
+        <h3>Programas y Hitos (Ejemplo de Plan Específico a 6 meses)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hito</th>
+                    <th>Descripción y Beneficio</th>
+                    <th>Fecha / Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Hito 1: Prototipo Core</strong></td>
+                    <td>Validación de las físicas de arena (WetSandBehavior). Beneficio: Reduce riesgo técnico.</td>
+                    <td>Mes 1</td>
+                </tr>
+                <tr>
+                    <td><strong>Hito 2: Beta Cerrada</strong></td>
+                    <td>Testeo con usuarios seleccionados. Beneficio: Feedback y corrección temprana de bugs (QA).</td>
+                    <td>Mes 3</td>
+                </tr>
+                <tr>
+                    <td><strong>Hito 3: Lanzamiento Play Store</strong></td>
+                    <td>Publicación oficial. Meta: 5,000 descargas iniciales en el Q1.</td>
+                    <td>Mes 6</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>V. Presupuestación, Finanzas y KPIs</h2>
+        
+        <h3>1. Análisis de Costos (Costo Estándar)</h3>
+        <p>Se asume una base teórica (Q = 5,000 descargas) para el cálculo del costo unitario estandarizado.</p>
+        <ul>
+            <li><strong>Materia Prima (MP):</strong> $25 USD (Pago único Cuenta Developer Google Play). Base estructural.</li>
+            <li><strong>Mano de Obra Directa (MOD):</strong> Estimación de 500 horas de desarrollo valoradas a $10 USD/h = $5,000 USD.</li>
+            <li><strong>Carga Fabril (CF):</strong> Costos indirectos (equipos, luz, internet) = $1,500 USD.</li>
+            <li><strong>Costo Total:</strong> $6,525 USD. (Costo Unitario = $1.30 USD por descarga).</li>
+        </ul>
+
+        <h3>2. Rentabilidad Financiera (TIR y VAN)</h3>
+        <p>A pesar del costo teórico alto por la valoración del tiempo, el riesgo financiero real de desembolso es ínfimo ($25 USD).</p>
+        <ul>
+            <li><strong>EBIT:</strong> Se calculará como Margen Bruto (Ingresos AdViews - Costos variables que son nulos) menos los costos financieros.</li>
+            <li><strong>VAN (Valor Actual Neto):</strong> Si los ingresos publicitarios superan los costos totales teóricos en un plazo dado, el VAN será positivo (El proyecto genera valor).</li>
+            <li><strong>TIR (Tasa Interna de Retorno):</strong> Dada la inversión de caja explícita de solo $25 USD, recuperar ese monto rápidamente resultará en una TIR que supera ampliamente cualquier Costo de Oportunidad convencional.</li>
+        </ul>
+
+        <h3>3. Indicadores de Gestión (KPIs)</h3>
+        <p>Para medir el progreso hacia los objetivos de la agenda estratégica, implementamos métricas desde las 4 perspectivas del Balanced Scorecard (BSC):</p>
+        
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <strong>Financiera</strong><br>
+                <em>Objetivo:</em> Retorno de Inversión (ROI).<br>
+                <em>Indicador:</em> % de crecimiento mensual de ingresos por ads.
+            </div>
+            <div class="kpi-card">
+                <strong>Cliente (Crucial)</strong><br>
+                <em>Objetivo:</em> Fidelidad al producto.<br>
+                <em>Indicador:</em> <strong>NPS (Net Promoter Score)</strong> y Rating promedio en Play Store (Estrellas).
+            </div>
+            <div class="kpi-card">
+                <strong>Procesos Internos</strong><br>
+                <em>Objetivo:</em> Eficiencia en QA.<br>
+                <em>Indicador:</em> Tiempo promedio de resolución de bugs críticos.
+            </div>
+            <div class="kpi-card">
+                <strong>Aprendizaje</strong><br>
+                <em>Objetivo:</em> Capacitación técnica.<br>
+                <em>Indicador:</em> Nuevas integraciones de APIs aprendidas por el equipo.
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
